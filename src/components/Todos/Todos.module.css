@@ -1,0 +1,15 @@
+
+
+.colNames{
+  display: flex;
+  background-color: gainsboro;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.colName{
+  flex: 0 0 25%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.body{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.title{
+  margin-bottom: 5px;
+
+}
+
+.input{
+  padding: 5px;
+}
+.inputError{
+  border: 2px solid red;
+ 
+}
+.inputTextError{
+  position: relative;
+}
+.inputTextError::after{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 200px;
+  display: inline;
+  content: 'This field is required';
+  color: red;
+}
